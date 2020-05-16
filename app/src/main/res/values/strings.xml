@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="test_headline">Coronavirus World Updates - The New York Times</string>
+    <string name="test_description">A Chinese health official suggested that some labs destroyed coronavirus samples in the outbreak’s early days. Hundreds of Greek beaches open to the public as record heat is forecast.</string>
+
+    <string name="test_date">Published on Saturday, May 16 2020</string>
+    <string name="see_news">SEE NEWS</string>
+</resources>

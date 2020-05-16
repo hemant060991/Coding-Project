@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin_bottom"
+            android:adjustViewBounds="true"
+            tools:layout_height="200dp"
+            tools:src="@tools:sample/backgrounds/scenic[1]" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_detail_page"
+                style="@style/Text.Heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_margin_bottom"
+                tools:text="@string/test_headline"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/author_detail_page"
+                style="@style/Text.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_margin_bottom"
+                tools:text="By Hemant"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/content_detail_page"
+                style="@style/Text.Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_margin_bottom"
+                tools:text="@string/test_description"
+                tools:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/date_detail_page"
+                style="@style/Text.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/text_margin_bottom"
+                tools:text="@string/test_date"
+                tools:visibility="visible" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="seeNews"
+                android:text="@string/see_news"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
